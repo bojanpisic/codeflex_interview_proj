@@ -1,0 +1,14 @@
+.main {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 50px 1fr;
+  grid-template-columns: 150px 1fr;
+  grid-template-areas:
+    "header header"
+    "sidebar content";
+}
+
+.content {
+  grid-area: content;
+  padding: 30px;
+}

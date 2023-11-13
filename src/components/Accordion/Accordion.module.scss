@@ -1,0 +1,26 @@
+.accordion {
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 2rem;
+
+    .header-title {
+    }
+
+    .header-arrow {
+      width: 2rem;
+      &--active {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  .accordion-content {
+    padding: 0.2rem 2rem;
+  }
+}

@@ -1,0 +1,16 @@
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.nav-link {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+
+  &--active {
+    font-weight: 800;
+  }
+}

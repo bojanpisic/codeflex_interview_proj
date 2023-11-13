@@ -1,0 +1,15 @@
+.image {
+  object-fit: cover;
+  height: 10rem;
+  width: 70%;
+  align-self: center;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-self: center;
+  margin-top: auto;
+  padding: 20px;
+}

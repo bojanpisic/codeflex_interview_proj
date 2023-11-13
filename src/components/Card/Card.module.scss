@@ -1,0 +1,31 @@
+.card {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #d9d9d9;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+
+  :global(.title) {
+    height: 3rem;
+    font-size: 14px;
+  }
+
+  :global(.image) {
+    object-fit: cover;
+    height: 10rem;
+    width: 70%;
+    align-self: center;
+  }
+
+  :global(.actions) {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-self: center;
+    margin-top: auto;
+    padding: 20px;
+  }
+}
